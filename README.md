@@ -1,7 +1,7 @@
 # ModularizedMonolith
 Materials from my presentation on modularizing a monolith
 
-#Abstract
+# Abstract
 
 Ile razy słyszeliście że 'nie mikrosewisy tylko modularny monolit'. i nawet się z tym zgadzasz. Ale po konferencji siadasz do kodu i... Jak to właściwie zrobić?
 
