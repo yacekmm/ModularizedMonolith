@@ -1,12 +1,15 @@
 # ModularizedMonolith
+
 Materials from my presentation on modularizing a monolith
 
 # Abstract
 
-Ile razy słyszeliście że 'nie mikrosewisy tylko modularny monolit'. i nawet się z tym zgadzasz. Ale po konferencji siadasz do kodu i... Jak to właściwie zrobić?
+Implement the monolith - the one well modularized
 
-Tytuł jak wzięty z konferencji z poprzedniej epoki, prawda? Teraz implementuje się Serverless. a w starszych systemach - Mikroserwisy. A może jest inaczej - może to tytuł z następnej epoki gdy historia zatoczy koło? A może jednak temat jest bardzo aktualny, bo wszystie te trzy architektury mają swoje zastosowanie. Szczególnie dużo o modularnym monolicie i wyznaczaniu granic mówi się w kontekście mikroserwisów. 
+How many times did you hear: `Modularize the monolith, instead of doing microservices`? And maybe you see the point, but the next day you sit in front of your IDE wondering... How to actually implement it?
 
-Prezentacja to Case Study na bazie produktu który zaczął się jako monolit i skończył jako modularny monolit. Pokazuje proces modularyzacji kodu. Zaczynając od zwykłego przesuwania klas między paczkami, przez ograniczanie dostępu po definiowanie wspólnych modeli oraz pokazanie jak korzystam z narzędzia do wymuszania tych reguł - ArchUnit. Bo przecież  tak nie chcemy tego pilnować ręcznie na Code Review. 
+The title sounds like it was presented in the previous era, isn't it? Now everyone is doing Serverless. Possibly microservices in bit older systems. Or maybe it is very urgent topic to talk about, as all three architectures find their fit into particular case. Particularly the modularized monoliths are important when facing a decision of distributing your system.
 
-Prezentacja zakłada że granice modułów są już wymyślone. Skupimy się na tym jak te wyznaczone granice zaimplementować i dopilnować. 
+The presentation is full of content - the Case Study based on a product that started as a Monolith, to become a Modularized Monolith. Shows the process of codebase modularization, starting with basic repackaging, defining modules in code up until the presentation of the tool that guards the modules' border for us automatically - the ArchUnit. Because we surely want to avoid manual rules checking.
+
+On a presentation I assume that module boundaries are already defined on a business level. The focus is on implementing and enforcing them in the code.
