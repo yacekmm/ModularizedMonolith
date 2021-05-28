@@ -4,7 +4,7 @@ Materials from my presentation on modularizing a monolith
 
 # Abstract
 
-Implement the monolith - the one well modularized
+**Implement the monolith - the one well modularized**
 
 How many times did you hear: `Modularize the monolith, instead of doing microservices`? And maybe you see the point, but the next day you sit in front of your IDE wondering... How to actually implement it?
 
