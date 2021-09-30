@@ -13,3 +13,7 @@ The title sounds like it was presented in the previous era, isn't it? Now everyo
 The presentation is full of content - the Case Study based on a product that started as a Monolith, to become a Modularized Monolith. Shows the process of codebase modularization, starting with basic repackaging, defining modules in code up until the presentation of the tool that guards the modules' border for us automatically - the ArchUnit. Because we surely want to avoid manual rules checking.
 
 On a presentation I assume that module boundaries are already defined on a business level. The focus is on implementing and enforcing them in the code.
+
+# Recordings
+
+See recordings on my blog: [looksok.wordpress.com](https://looksok.wordpress.com/2021/09/30/about-modularized-monolith-my-newest-conference-speech/)
